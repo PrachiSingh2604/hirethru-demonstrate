@@ -18,8 +18,10 @@ const Stats = () => {
       // Initialize the counters
       const counters = document.querySelectorAll('.stats-counter');
       counters.forEach(counter => {
-        const target = +(counter as HTMLElement).getAttribute('data-target') || 0;
-        animateCounter(counter as HTMLElement, target);
+        const target = parseInt(counter?.getAttribute('data-target') || '0', 10);
+        if (counter instanceof HTMLElement) {
+          animateCounter(counter, target);
+        }
       });
 
       // Initialize the charts
@@ -124,7 +126,19 @@ const Stats = () => {
   return (
     <section id="stats" ref={sectionRef} className="py-20 bg-gradient-to-r from-primary-dark to-primary">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 relative">
+          <div className="hidden lg:block absolute right-0 -top-10 perspective-element">
+            <div className="cube-wrapper">
+              <div className="cube">
+                <div className="cube-face front"></div>
+                <div className="cube-face back"></div>
+                <div className="cube-face right"></div>
+                <div className="cube-face left"></div>
+                <div className="cube-face top"></div>
+                <div className="cube-face bottom"></div>
+              </div>
+            </div>
+          </div>
           <h2 className="text-3xl font-bold text-white">Our Impact in Numbers</h2>
           <div className="h-1 w-20 bg-accent mx-auto mt-4"></div>
         </div>

@@ -8,7 +8,7 @@ const CTA = () => {
   return (
     <section ref={sectionRef} className="relative py-16 bg-gray-900 overflow-hidden">
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')] bg-cover bg-center"></div>
+        <div className="absolute inset-0 bg-grid-pattern"></div>
       </div>
       <div className="absolute -top-24 -right-24 w-96 h-96 bg-gradient-to-br from-primary to-accent opacity-20 rounded-full filter blur-3xl"></div>
       <div className="absolute -bottom-24 -left-24 w-96 h-96 bg-gradient-to-br from-secondary to-primary opacity-20 rounded-full filter blur-3xl"></div>
