@@ -1,6 +1,7 @@
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import Hero from "@/components/sections/Hero";
+import IntroVideo from "@/components/sections/IntroVideo";
 import Services from "@/components/sections/Services";
 import WhyChooseUs from "@/components/sections/WhyChooseUs";
 import Process from "@/components/sections/Process";
@@ -15,6 +16,7 @@ const Home = () => {
       <Header />
       <main className="flex-grow">
         <Hero />
+        <IntroVideo />
         <Services />
         <WhyChooseUs />
         <Process />

@@ -13,17 +13,17 @@ const Contact = () => {
     {
       icon: "fas fa-map-marker-alt",
       title: "Our Office",
-      content: "123 Tech Park, Bangalore, India"
+      content: "Gurgaon, Haryana, India"
     },
     {
       icon: "fas fa-envelope",
       title: "Email",
-      content: "info@hirethru.in"
+      content: "client.connect@hirethru.in"
     },
     {
       icon: "fas fa-phone-alt",
       title: "Phone",
-      content: "+91 9876543210"
+      content: "+91 9819616197"
     }
   ];
 
