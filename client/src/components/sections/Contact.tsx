@@ -63,7 +63,23 @@ const Contact = () => {
               ))}
             </div>
             
-            <div className="mt-12">
+            <div className="mt-8">
+              <h3 className="text-lg font-medium text-gray-900">Our Location</h3>
+              <div className="mt-4 rounded-lg overflow-hidden shadow-md">
+                <iframe
+                  title="Office Location"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224400.85881656!2d76.93199001257712!3d28.42826153183303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19d582e38859%3A0x2cf5fe8e5c64b1e!2sGurugram%2C%20Haryana!5e0!3m2!1sen!2sin!4v1683021241427!5m2!1sen!2sin"
+                  width="100%"
+                  height="250"
+                  style={{ border: 0 }}
+                  allowFullScreen={true}
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+            
+            <div className="mt-8">
               <h3 className="text-lg font-medium text-gray-900">Follow Us</h3>
               <div className="flex space-x-6 mt-4">
                 <a href="https://linkedin.com/company/hirethru" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-primary transition-colors">
