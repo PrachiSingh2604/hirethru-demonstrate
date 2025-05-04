@@ -36,7 +36,7 @@ const CTA = () => {
               Get Started Now
             </motion.a>
             <motion.a 
-              href="#" 
+              href="#contact" 
               className="inline-block ml-4 px-8 py-4 border border-white text-base font-medium rounded-md text-white hover:bg-white/10 md:text-lg"
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.2 }}

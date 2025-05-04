@@ -55,11 +55,7 @@ const Services = () => {
                     <i className={`${service.icon} text-primary text-xl`}></i>
                   </div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">{service.title}</h3>
-                  <p className="text-gray-600 mb-4">{service.description}</p>
-                  <a href="#" className="text-primary font-medium hover:text-primary-dark inline-flex items-center">
-                    Learn more
-                    <i className="fas fa-arrow-right ml-2 text-sm transition-transform group-hover:translate-x-1"></i>
-                  </a>
+                  <p className="text-gray-600">{service.description}</p>
                 </div>
               </div>
             </motion.div>

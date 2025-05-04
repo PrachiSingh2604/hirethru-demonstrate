@@ -66,16 +66,16 @@ const Contact = () => {
             <div className="mt-12">
               <h3 className="text-lg font-medium text-gray-900">Follow Us</h3>
               <div className="flex space-x-6 mt-4">
-                <a href="#" className="text-gray-500 hover:text-primary transition-colors">
+                <a href="https://linkedin.com/company/hirethru" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-primary transition-colors">
                   <i className="fab fa-linkedin text-2xl"></i>
                 </a>
-                <a href="#" className="text-gray-500 hover:text-primary transition-colors">
+                <a href="https://twitter.com/hirethru" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-primary transition-colors">
                   <i className="fab fa-twitter text-2xl"></i>
                 </a>
-                <a href="#" className="text-gray-500 hover:text-primary transition-colors">
+                <a href="https://facebook.com/hirethru" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-primary transition-colors">
                   <i className="fab fa-facebook text-2xl"></i>
                 </a>
-                <a href="#" className="text-gray-500 hover:text-primary transition-colors">
+                <a href="https://instagram.com/hirethru" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-primary transition-colors">
                   <i className="fab fa-instagram text-2xl"></i>
                 </a>
               </div>
