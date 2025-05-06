@@ -47,15 +47,17 @@
 --radius: 0.5rem;
   }
 
-@layer base {
-  * {
-    @apply border-border;
+  @layer base {
+    * {
+      @apply border border-gray-300; /* Example: apply a gray border */
+    }
   }
+  
 
   body {
     @apply font-sans antialiased bg-background text-foreground;
   }
-}
+
 
 @layer utilities {
   .bg-grid-pattern {
